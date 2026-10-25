@@ -3,22 +3,25 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Gerícht</title>
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Upright:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <main>
-    <section class="Menu">
-            <div class="emblem"><img src="./img/emblem.webp"</div>
 
+    <section  class="emblem-right"><div><img src="./img/emblem.webp"</div></section>    
+
+    <section class="Menu">
                 <div class="headline-menu">
                     <p class="caption">Menu that fits you palatte</p>
-                    <div class="spoon"><img src="./img/spoon.webp"</div>
+                    <div class="spoon"><img src="./img/spoon.webp" alt="spoon"</div>
                     <h2 class="titel">Today’s Special</h2>
                 </div>
 
         <div class="assortment">
             
-            <div class="menu-left">
+            <div class="column menu-left">
                 <h3>Wine & Beer</h3>
                 <div class="menu-items">
 
@@ -70,10 +73,10 @@
             </div>
 
 
-            <div class="menu-image"><img src="./img/cocktail.webp"</div>
+            <div class="column menu-image"><img src="./img/cocktail.webp" alt="cocktail"></div>
 
 
-            <div class="menu-right">
+            <div class="column menu-right">
                 <h3>Cocktails</h3>
                 <div class="menu-items">
 
@@ -126,21 +129,19 @@
 
         </div>
 
-
-            <div class="menu-btn">View More</div>
-
-            <div class="emblem"><img src="./img/emblem.webp"</div>
-
+            <button type="button" class="menu-btn">View More</button>
     </section>
 
+    <section  class="emblem-left"><div><img src="./img/emblem.webp"</div></section>
+
     <section class="registration">
-            <div class="emblem"><img src="./img/emblem.webp"</div>
 
                 <div class="headline-registration">
                     <p class="caption">Newsletter</p>
                     <div class="spoon"><img src="./img/spoon.webp"</div>
                     <h2 class="titel">Subscribe to Our Newsletter</h2>
                     <p class="small-caption">And never miss latest Updates!</p>
+                </div>
                 
                 <form class="form-registration">
                     <label for="email">
@@ -148,8 +149,9 @@
                     </label>
                     <button class="registration-btn">Subscribe</button>
                 </form>
-                </div>
     </section>
+
+    <section  class="emblem-right"><div><img src="./img/emblem.webp"</div></section>
     </main>
 </body>
 </html>
