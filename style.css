@@ -130,3 +130,39 @@
     padding: 20px 40px;
 }
 
+.border {
+    max-width: 1000px;
+    width: 900px;
+    margin: 0 auto;
+    padding: 50px 35px;
+    border: 1px solid var(--second);
+    box-sizing: border-box;
+}
+
+.headline-registration {
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.registration-btn {
+    width: fit-content;
+    margin: 35px;
+    padding: 10px 30px;
+    color: var(--bg);
+    background-color: var(--second);
+    border: none;
+    font-weight: 600;
+    cursor: pointer;
+    text-align: center;
+}
+
+.registration-email{
+    width: 350px;
+    margin: 20px;
+    padding: 12px 20px;
+    color: var(--bg);
+    background-color: var(--bg);
+    border: 1px solid var(--second);
+    font-weight: 600;
+    cursor: pointer;
+}
